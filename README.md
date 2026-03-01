@@ -8,6 +8,10 @@ Never miss your train.</p>
 
 ---
 
+<p align="center">
+  <img src="assets/screenshot.png" width="720" alt="Arrival iOS app showing live subway arrivals and home screen widgets">
+</p>
+
 ## What it does
 
 Arrival shows real-time subway arrivals for your saved stations — right on your iPhone and home screen widget.
