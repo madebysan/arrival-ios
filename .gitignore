@@ -1,0 +1,19 @@
+# Xcode
+*.xcodeproj/xcuserdata/
+*.xcworkspace/
+xcuserdata/
+DerivedData/
+
+# SPM
+.build/
+.swiftpm/
+
+# macOS
+.DS_Store
+*.swp
+*~
+
+# Local-only
+plan.md
+notes.md
+IDEAS.md
