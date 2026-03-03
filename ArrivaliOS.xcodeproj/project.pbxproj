@@ -12,6 +12,7 @@
 		A1000002 /* Arrival.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000002 /* Arrival.swift */; };
 		A1000003 /* ServiceAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000003 /* ServiceAlert.swift */; };
 		A1000004 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000004 /* Station.swift */; };
+		A1000014 /* RouteStops.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000014 /* RouteStops.swift */; };
 		A1000005 /* TrackedStop.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000005 /* TrackedStop.swift */; };
 		A1000006 /* MTAService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000006 /* MTAService.swift */; };
 		A1000007 /* StationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000007 /* StationStore.swift */; };
@@ -34,6 +35,7 @@
 		W1000005 /* Arrival.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000002 /* Arrival.swift */; };
 		W1000006 /* ServiceAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000003 /* ServiceAlert.swift */; };
 		W1000007 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000004 /* Station.swift */; };
+		W1000022 /* RouteStops.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000014 /* RouteStops.swift */; };
 		W1000008 /* TrackedStop.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000005 /* TrackedStop.swift */; };
 		W1000009 /* MTAService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000006 /* MTAService.swift */; };
 		W1000010 /* StationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000007 /* StationStore.swift */; };
@@ -79,6 +81,7 @@
 		B1000002 /* Arrival.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arrival.swift; sourceTree = "<group>"; };
 		B1000003 /* ServiceAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceAlert.swift; sourceTree = "<group>"; };
 		B1000004 /* Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		B1000014 /* RouteStops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteStops.swift; sourceTree = "<group>"; };
 		B1000005 /* TrackedStop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackedStop.swift; sourceTree = "<group>"; };
 		B1000006 /* MTAService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTAService.swift; sourceTree = "<group>"; };
 		B1000007 /* StationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationStore.swift; sourceTree = "<group>"; };
@@ -170,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				B1000002 /* Arrival.swift */,
+				B1000014 /* RouteStops.swift */,
 				B1000003 /* ServiceAlert.swift */,
 				B1000004 /* Station.swift */,
 				B1000005 /* TrackedStop.swift */,
@@ -360,6 +364,7 @@
 				A1000002 /* Arrival.swift in Sources */,
 				A1000003 /* ServiceAlert.swift in Sources */,
 				A1000004 /* Station.swift in Sources */,
+				A1000014 /* RouteStops.swift in Sources */,
 				A1000005 /* TrackedStop.swift in Sources */,
 				A1000006 /* MTAService.swift in Sources */,
 				A1000007 /* StationStore.swift in Sources */,
@@ -387,6 +392,7 @@
 				W1000005 /* Arrival.swift in Sources */,
 				W1000006 /* ServiceAlert.swift in Sources */,
 				W1000007 /* Station.swift in Sources */,
+				W1000022 /* RouteStops.swift in Sources */,
 				W1000008 /* TrackedStop.swift in Sources */,
 				W1000009 /* MTAService.swift in Sources */,
 				W1000010 /* StationStore.swift in Sources */,

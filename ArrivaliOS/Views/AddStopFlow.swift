@@ -223,7 +223,7 @@ struct AddStopFlow: View {
     // MARK: - Station Picker
 
     private var stationPickerContent: some View {
-        StationPickerView(route: selectedRoute) { station in
+        StationPickerView(route: selectedRoute, direction: selectedDirection) { station in
             let newStop = TrackedStop(
                 route: selectedRoute,
                 stationID: station.id,
