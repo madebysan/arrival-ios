@@ -1,14 +1,18 @@
 import SwiftUI
 
-// Searchable station list, filtered by route
+// Searchable station list, filtered by route, ordered by direction
 struct StationPickerView: View {
     @State private var searchText = ""
 
     let route: String
+    let direction: String // "N" or "S"
     let onSelect: (Station) -> Void
 
     private var filteredStations: [Station] {
-        StationStore.shared.search(query: searchText, route: route)
+        let results = StationStore.shared.search(query: searchText, route: route)
+        // Southbound: first stop → last stop (as stored)
+        // Northbound: reverse so last stop comes first
+        return direction == "N" ? results.reversed() : results
     }
 
     var body: some View {

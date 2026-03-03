@@ -107,12 +107,18 @@ class StationStore {
         return stations.first { $0.id == id }
     }
 
-    // Get all stations that serve a given route
+    // Get all stations that serve a given route, in the hardcoded stop sequence order
     func stations(forRoute route: String) -> [Station] {
-        return stations.filter { $0.inferredRoutes.contains(route) }
+        guard let sequence = RouteStops.sequences[route] else {
+            return []
+        }
+        // Build a lookup for fast access
+        let stationByID = Dictionary(uniqueKeysWithValues: stations.map { ($0.id, $0) })
+        // Return stations in the exact sequence order
+        return sequence.compactMap { stationByID[$0] }
     }
 
-    // Search stations that serve a given route
+    // Search stations that serve a given route, sorted in route order
     func search(query: String, route: String) -> [Station] {
         let routeStations = stations(forRoute: route)
         if query.isEmpty { return routeStations }
