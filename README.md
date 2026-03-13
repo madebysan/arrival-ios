@@ -15,26 +15,26 @@ Never miss your train.</p>
 
 ## What it does
 
-Arrival shows real-time subway arrivals for your saved stations — right on your iPhone and home screen widget.
+Arrival shows real-time subway arrivals for your saved stations – right on your iPhone and home screen widget.
 
 - **Next trains** with live countdowns that update every 60 seconds
 - **Service alerts** for your line (delays, planned work)
 - **"Leave now!"** indicator based on your walking time to the station
-- **Home screen widgets** — small and medium sizes with configurable stop picker
+- **Home screen widgets** – small and medium sizes with configurable stop picker
 
-Data comes directly from the MTA's free GTFS-Realtime feeds — the same source that powers the countdown clocks in stations.
+Data comes directly from the MTA's free GTFS-Realtime feeds – the same source that powers the countdown clocks in stations.
 
 ## Features
 
-- **Every NYC subway line** — 1/2/3, 4/5/6, 7, A/C/E, B/D/F/M, G, J/Z, L, N/Q/R/W, S
-- **All ~496 stations** — searchable picker, filtered by line
-- **Up to 4 saved stops** — track multiple stations and directions
-- **Home screen widgets** — small (3 arrivals) and medium (3 arrivals + leave now badge) sizes
-- **Widget stop picker** — choose which saved stop each widget displays
-- **Auto-refresh** — arrival data refreshes every 60 seconds while the app is open
-- **Walking time** — set how many minutes you are from each station; trains you can still catch are highlighted
-- **Service alerts** — live delay and planned work notifications for your lines
-- **Native SwiftUI** — lightweight, follows system dark/light mode
+- **Every NYC subway line** – 1/2/3, 4/5/6, 7, A/C/E, B/D/F/M, G, J/Z, L, N/Q/R/W, S
+- **All ~496 stations** – searchable picker, filtered by line
+- **Up to 4 saved stops** – track multiple stations and directions
+- **Home screen widgets** – small (3 arrivals) and medium (3 arrivals + leave now badge) sizes
+- **Widget stop picker** – choose which saved stop each widget displays
+- **Auto-refresh** – arrival data refreshes every 60 seconds while the app is open
+- **Walking time** – set how many minutes you are from each station; trains you can still catch are highlighted
+- **Service alerts** – live delay and planned work notifications for your lines
+- **Native SwiftUI** – lightweight, follows system dark/light mode
 
 ## Setup
 
@@ -68,7 +68,7 @@ All train arrival data comes from the [MTA's GTFS-Realtime feeds](https://api.mt
 
 ## Related
 
-- [Arrival for macOS](https://github.com/madebysan/arrival) — menu bar version
+- [Arrival for macOS](https://github.com/madebysan/arrival) – menu bar version
 
 ## License
 
