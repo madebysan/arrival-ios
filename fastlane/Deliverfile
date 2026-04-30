@@ -9,10 +9,10 @@ copyright("© 2026 Santiago Alonso")
 app_review_information(
   first_name: "Santiago",
   last_name: "Alonso",
-  phone_number: "+1 000-000-0000",
+  phone_number: "+1 347 574 2093",
   email_address: "snt.aln@gmail.com",
-  demo_user: "",
-  demo_password: "",
+  demo_user: nil,
+  demo_password: nil,
   notes: "Arrival shows real-time NYC subway arrivals using the public MTA realtime feed (api-endpoint.mta.info). No account needed. To test: tap '+', search any station, save it. Live arrivals appear immediately."
 )
 
