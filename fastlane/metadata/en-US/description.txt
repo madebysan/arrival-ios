@@ -1,0 +1,24 @@
+Arrival shows real-time NYC subway arrivals for the stations you actually use.
+
+Save your home, your office, your gym — pull out your phone and see exactly when the next train is coming. No menus, no zooming around a map.
+
+WHAT YOU GET
+
+• Live arrivals for every NYC subway line, updated every 60 seconds
+• Save up to a dozen stations, reorder by drag
+• Home screen widgets that update in the background
+• Direction filters so you only see uptown when you're going uptown
+• Service alerts pulled directly from the MTA
+• Clean, readable typography designed for one-glance reading on a moving train
+
+PRIVACY
+
+Arrival doesn't have an account system. There's nothing to log into. The app fetches data from the MTA's public realtime feed and stores your saved stations on your device. Nothing is sent to us, because there is no us — there's no server.
+
+DATA SOURCE
+
+All arrival times come from the MTA's official GTFS-Realtime feed. Same data the official MTA app uses. Times are estimates from the agency, not the app — Arrival just displays them in a faster, simpler interface.
+
+SUPPORT
+
+Found a bug or have a request? See the support page link below.

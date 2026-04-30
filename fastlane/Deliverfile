@@ -1,0 +1,23 @@
+app_identifier("com.santiagoalonso.ArrivaliOS")
+username("snt.aln@gmail.com")
+
+primary_category("PRODUCTIVITY")
+secondary_category("UTILITIES")
+
+copyright("© 2026 Santiago Alonso")
+
+app_review_information(
+  first_name: "Santiago",
+  last_name: "Alonso",
+  phone_number: "+1 000-000-0000",
+  email_address: "snt.aln@gmail.com",
+  demo_user: "",
+  demo_password: "",
+  notes: "Arrival shows real-time NYC subway arrivals using the public MTA realtime feed (api-endpoint.mta.info). No account needed. To test: tap '+', search any station, save it. Live arrivals appear immediately."
+)
+
+submission_information({
+  add_id_info_uses_idfa: false,
+  export_compliance_uses_encryption: false,
+  content_rights_contains_third_party_content: false
+})

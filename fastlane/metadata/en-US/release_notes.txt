@@ -1,0 +1,1 @@
+First release. Save NYC subway stations, see live arrivals, and pin a station to your home screen as a widget.
