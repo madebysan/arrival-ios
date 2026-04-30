@@ -109,6 +109,35 @@ platform :ios do
     )
   end
 
+  desc "Push metadata + screenshots, then submit existing binary for review (no rebuild)"
+  lane :release do
+    preflight
+
+    api_key = app_store_connect_api_key(
+      key_id: "DTWJG858MG",
+      issuer_id: "7efbe64f-d059-4e70-9c0b-02e8bf987fae",
+      key_filepath: "/Users/san/private_keys/AuthKey_DTWJG858MG.p8",
+      duration: 1200,
+      in_house: false
+    )
+
+    upload_to_app_store(
+      api_key: api_key,
+      skip_binary_upload: true,
+      skip_metadata: false,
+      skip_screenshots: false,
+      submit_for_review: true,
+      automatic_release: true,
+      submission_information: {
+        add_id_info_uses_idfa: false,
+        export_compliance_uses_encryption: false,
+        content_rights_contains_third_party_content: false
+      },
+      precheck_include_in_app_purchases: false,
+      force: true
+    )
+  end
+
   desc "Full flow: preflight → build → upload → push metadata → submit for review"
   lane :submit do
     preflight
